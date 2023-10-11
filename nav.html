@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./nav.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Garet:wght@400;800&display=swap"
+    />
+  </head>
+  <body>
+    <div class="nav4">
+      <button class="vector-parent" id="karty">
+        <img class="rectangle-icon" alt="" src="./public/rectangle-10.svg" />
+
+        <div class="karty-afirmacyjne">Karty Afirmacyjne</div>
+      </button>
+      <nav class="nav5">
+        <div class="nav-child2"></div>
+        <button class="rectangle-parent1" id="home">
+          <div class="group-child5"></div>
+          <img
+            class="base-icon-transparent-backgrou"
+            alt=""
+            src="./public/base-icon-transparent-background-1@2x.png"
+          />
+        </button>
+      </nav>
+    </div>
+
+    <script>
+      var groupButton = document.getElementById("karty");
+      if (groupButton) {
+        groupButton.addEventListener("click", function (e) {
+          window.location.href = "./mysl.html";
+        });
+      }
+      
+      var groupButton1 = document.getElementById("home");
+      if (groupButton1) {
+        groupButton1.addEventListener("click", function (e) {
+          window.location.href = "./home.html";
+        });
+      }
+      </script>
+  </body>
+</html>

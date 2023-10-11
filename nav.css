@@ -1,0 +1,84 @@
+.karty-afirmacyjne,
+.rectangle-icon {
+  position: absolute;
+  left: 0;
+  width: 340px;
+}
+.rectangle-icon {
+  top: 0;
+  border-radius: 40px;
+  height: 84px;
+}
+.karty-afirmacyjne {
+  top: 5px;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-garet);
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 79px;
+}
+.vector-parent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 115px;
+  left: 25px;
+  width: 340px;
+  height: 84px;
+}
+.group-child5,
+.nav-child2 {
+  position: absolute;
+  top: 49px;
+  left: 0;
+  background-color: var(--color-lightslategray);
+  width: 390px;
+  height: 65px;
+}
+.group-child5 {
+  top: 0;
+  border-radius: 82px;
+  background-color: var(--color-white);
+  width: 100px;
+  height: 143px;
+}
+.base-icon-transparent-backgrou {
+  position: absolute;
+  top: 49px;
+  left: 0;
+  width: 103px;
+  height: 81.4px;
+  object-fit: cover;
+}
+.nav5,
+.rectangle-parent1 {
+  position: absolute;
+  height: 143px;
+}
+.rectangle-parent1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 0;
+  left: 143px;
+  width: 103px;
+}
+.nav5 {
+  margin: 0;
+  top: -49px;
+  left: 0;
+  width: 390px;
+}
+.nav4 {
+  position: relative;
+  background-color: var(--color-lightgray);
+  width: 100%;
+  height: 844px;
+  overflow: hidden;
+}

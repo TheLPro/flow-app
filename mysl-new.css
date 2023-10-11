@@ -1,0 +1,344 @@
+.mysl-new-child {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  background-color: var(--color-lightslategray);
+  width: 390px;
+  height: 131px;
+}
+.mysl-na-dzi1 {
+  position: absolute;
+  top: 3px;
+  left: calc(50% - 160px);
+  font-weight: 800;
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 331px;
+  height: 123px;
+}
+.mysl-new-item {
+  position: absolute;
+  top: 174px;
+  left: 22px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gray-100);
+  border: 3px solid var(--color-lightslategray);
+  box-sizing: border-box;
+  width: 344px;
+  height: 424px;
+}
+.tytu1 {
+  position: absolute;
+  top: 185px;
+  left: 39px;
+  font-size: var(--font-size-13xl);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 310px;
+  height: 85px;
+}
+.mysl-new-inner {
+  position: absolute;
+  top: 260px;
+  left: 36.5px;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 315px;
+  height: 1px;
+}
+.tresc-twojej-mysli {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 322px;
+  height: 335px;
+}
+.tresc-twojej-mysli-wrapper {
+  position: absolute;
+  top: 262px;
+  left: 30px;
+  width: 331px;
+  height: 331px;
+  overflow-y: auto;
+  font-size: var(--font-size-base);
+}
+.group-child3,
+.rectangle-container {
+  position: absolute;
+  left: 0;
+  width: 82.83px;
+  height: 82.83px;
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+}
+.group-child3 {
+  top: 0;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+  border: 3px solid var(--color-lightslategray);
+  box-sizing: border-box;
+}
+.rectangle-container {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 82.83px;
+}
+.icon-times {
+  position: absolute;
+  height: 54.33%;
+  width: 54.33%;
+  top: 21.73%;
+  right: 23.94%;
+  bottom: 23.94%;
+  left: 21.73%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.group-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 634px;
+  left: 254px;
+  width: 82.83px;
+  height: 82.83px;
+}
+.group-child4,
+.rectangle-frame {
+  position: absolute;
+  left: 0;
+  width: 82.83px;
+  height: 193px;
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+}
+.group-child4 {
+  top: 0;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-lightslategray);
+  border: 3px solid var(--color-lightslategray);
+  box-sizing: border-box;
+}
+.rectangle-frame {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 82.83px;
+}
+.dodaj {
+  position: absolute;
+  top: 22px;
+  left: 33px;
+  font-size: var(--font-size-23xl);
+  font-family: var(--font-garet);
+  color: var(--color-white);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 127px;
+  height: 38px;
+}
+.group-parent1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 634px;
+  left: 46px;
+  width: 193px;
+  height: 82.83px;
+}
+.icon-home3,
+.nav-child1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.nav-child1 {
+  background-color: var(--color-lightslategray);
+  width: 390px;
+  height: 70px;
+}
+.icon-home3 {
+  height: 66.24%;
+  width: 100%;
+  right: 0;
+  bottom: 33.76%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.home4 {
+  position: absolute;
+  top: 45px;
+  left: 2px;
+  font-size: var(--font-size-smi);
+  font-family: var(--font-garet);
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 9px;
+}
+.icon-home-parent1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 77.14%;
+  width: 11.79%;
+  top: 11.43%;
+  right: 74.62%;
+  bottom: 11.43%;
+  left: 13.59%;
+}
+.icon-alternate-microphone3 {
+  position: absolute;
+  height: 70.37%;
+  width: 38.99%;
+  top: 0;
+  right: 29.66%;
+  bottom: 29.63%;
+  left: 31.34%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.podcasty4 {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  font-size: var(--font-size-smi);
+  font-family: var(--font-garet);
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 67px;
+  height: 9px;
+}
+.icon-alternate-microphone-parent1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 77.14%;
+  width: 17.18%;
+  top: 11.43%;
+  right: 52.05%;
+  bottom: 11.43%;
+  left: 30.77%;
+}
+.icon-quote-right3 {
+  position: absolute;
+  height: 66.04%;
+  width: 63.49%;
+  top: 0;
+  right: 17.46%;
+  bottom: 33.96%;
+  left: 19.05%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.mysl4 {
+  position: absolute;
+  top: 44px;
+  left: 0;
+  font-size: var(--font-size-smi);
+  font-family: var(--font-garet);
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 63px;
+  height: 9px;
+}
+.icon-quote-right-parent1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 75.71%;
+  width: 16.15%;
+  top: 12.86%;
+  right: 33.85%;
+  bottom: 11.43%;
+  left: 50%;
+}
+.icon-alternate-phone3 {
+  position: absolute;
+  height: 70.37%;
+  width: 60.32%;
+  top: 0;
+  right: 19.05%;
+  bottom: 29.63%;
+  left: 20.63%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.contact3 {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  font-size: var(--font-size-smi);
+  font-family: var(--font-garet);
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 63px;
+  height: 9px;
+}
+.icon-alternate-phone-parent1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 77.14%;
+  width: 16.15%;
+  top: 11.43%;
+  right: 13.08%;
+  bottom: 11.43%;
+  left: 70.77%;
+}
+.nav3 {
+  margin: 0;
+  position: absolute;
+  top: 774px;
+  left: 0;
+  width: 390px;
+  height: 70px;
+}
+.mysl-new {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 844px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+  font-family: var(--font-garet);
+}

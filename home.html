@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./home.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Garet:wght@400;800&display=swap"
+    />
+  </head>
+  <body>
+    <div class="home1">
+      <div class="home-child"></div>
+      <div class="nowy-podcast">Nowy Podcast</div>
+      <div class="group-parent">
+        <div class="rectangle-parent">
+          <div class="group-child"></div>
+          <div class="dolacz-do-newsletera-container">
+            <span class="czes-txt">
+              <p class="dolacz-do">Dolacz do</p>
+              <p class="dolacz-do">Newsletera</p>
+            </span>
+          </div>
+        </div>
+        <div class="group-item"></div>
+        <div class="xxx">xxx</div>
+        <div class="group-inner"></div>
+      </div>
+      <div class="rectangle-group">
+        <div class="rectangle-div"></div>
+        <div class="twoja-mysl-na-container">
+          <span class="czes-txt">
+            <p class="dolacz-do">Twoja</p>
+            <p class="dolacz-do">“Mysl na Dzis”</p>
+          </span>
+        </div>
+        <div class="tytul">Tytul</div>
+        <img
+          class="icon-arrow-right"
+          alt=""
+          src="./public/-icon-arrowright.svg"
+        />
+      </div>
+      <nav class="nav1">
+        <div class="nav-item"></div>
+        <button class="icon-home-group" id="home">
+          <img class="icon-home1" alt="" src="./public/-icon-home.svg" />
+
+          <div class="home2">Home</div>
+        </button>
+        <button class="icon-alternate-microphone-group" id="podcast">
+          <img
+            class="icon-alternate-microphone1"
+            alt=""
+            src="./public/-icon-alternate-microphone.svg"
+          />
+
+          <div class="podcasty2">Podcasty</div>
+        </button>
+        <button class="icon-quote-right-group" id="mysl">
+          <img
+            class="icon-quote-right1"
+            alt=""
+            src="./public/-icon-quoteright.svg"
+          />
+
+          <div class="mysl1">Mysl</div>
+        </button>
+        <button class="icon-alternate-phone-group" id="contact">
+          <img
+            class="icon-alternate-phone1"
+            alt=""
+            src="./public/-icon-alternate-phone.svg"
+          />
+
+          <div class="contact1">Contact</div>
+        </button>
+      </nav>
+      <div class="home-item"></div>
+      <div class="leon" id="leonText">Leon</div>
+      <div class="czes">
+        <span class="czes-txt">
+          <span>Czesć,</span>
+          <span class="span"> </span>
+        </span>
+      </div>
+    </div>
+
+    <script>
+      var leonText = document.getElementById("leonText");
+      if (leonText) {
+        leonText.addEventListener("click", function (e) {
+          window.location.href = "./first-open.html";
+        });
+      }
+      </script>
+  </body>
+</html>
