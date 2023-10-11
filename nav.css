@@ -31,7 +31,7 @@
   width: 340px;
   height: 84px;
 }
-.group-child5,
+.group-child6,
 .nav-child2 {
   position: absolute;
   top: 49px;
@@ -40,7 +40,7 @@
   width: 390px;
   height: 65px;
 }
-.group-child5 {
+.group-child6 {
   top: 0;
   border-radius: 82px;
   background-color: var(--color-white);
@@ -56,11 +56,11 @@
   object-fit: cover;
 }
 .nav5,
-.rectangle-parent1 {
+.rectangle-parent2 {
   position: absolute;
   height: 143px;
 }
-.rectangle-parent1 {
+.rectangle-parent2 {
   cursor: pointer;
   border: 0;
   padding: 0;

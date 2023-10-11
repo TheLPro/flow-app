@@ -18,7 +18,7 @@
   width: 312px;
   height: 75px;
 }
-.group-child {
+.rectangle-div {
   position: absolute;
   top: 0;
   left: 0;
@@ -33,22 +33,32 @@
   position: absolute;
   top: 14px;
   left: 54px;
+  font-size: var(--font-size-13xl);
   text-decoration: underline;
   font-weight: 800;
+  font-family: var(--font-garet);
+  color: var(--color-lightslategray);
+  text-align: center;
   display: flex;
   align-items: center;
   width: 241px;
   height: 98px;
 }
-.group-item,
-.rectangle-parent {
+.group-child1,
+.rectangle-group {
   position: absolute;
-  top: 763px;
   left: 0;
   width: 350px;
+}
+.rectangle-group {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 763px;
   height: 125px;
 }
-.group-item {
+.group-child1 {
   top: 0;
   background-color: rgba(255, 255, 255, 0.03);
   height: 459px;
@@ -59,7 +69,7 @@
   left: 142px;
   font-weight: 800;
 }
-.group-inner {
+.group-child2 {
   position: absolute;
   top: 70px;
   left: 69px;
@@ -67,20 +77,21 @@
   width: 212px;
   height: 377px;
 }
-.group-parent {
+.group-child3,
+.group-div {
   position: absolute;
+  width: 350px;
+}
+.group-div {
   top: 122px;
   left: 20px;
-  width: 350px;
   height: 888px;
   color: var(--color-lightslategray);
 }
-.rectangle-div {
-  position: absolute;
+.group-child3 {
   top: 0;
   left: 0;
   background-color: var(--color-lightslategray);
-  width: 350px;
   height: 280px;
 }
 .twoja-mysl-na-container,
@@ -115,25 +126,33 @@
   overflow: hidden;
   max-height: 100%;
 }
-.rectangle-group {
+.home-item,
+.rectangle-parent1 {
   position: absolute;
   top: 592px;
   left: 19px;
   width: 350px;
   height: 280px;
 }
-.icon-home1,
-.nav-item {
+.home-item {
+  top: 1100px;
+  left: 27px;
+  background-color: var(--color-white);
+  width: 335px;
+  height: 283px;
+}
+.icon-home2,
+.nav-inner {
   position: absolute;
   top: 0;
   left: 0;
 }
-.nav-item {
+.nav-inner {
   background-color: var(--color-lightslategray);
   width: 390px;
   height: 70px;
 }
-.icon-home1 {
+.icon-home2 {
   height: 66.24%;
   width: 100%;
   right: 0;
@@ -142,7 +161,7 @@
   overflow: hidden;
   max-height: 100%;
 }
-.home2 {
+.home3 {
   position: absolute;
   top: 45px;
   left: 2px;
@@ -156,7 +175,7 @@
   width: 44px;
   height: 9px;
 }
-.icon-home-group {
+.icon-home-container {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -169,7 +188,7 @@
   bottom: 11.43%;
   left: 13.59%;
 }
-.icon-alternate-microphone1 {
+.icon-alternate-microphone2 {
   position: absolute;
   height: 70.37%;
   width: 38.99%;
@@ -181,7 +200,7 @@
   overflow: hidden;
   max-height: 100%;
 }
-.podcasty2 {
+.podcasty3 {
   position: absolute;
   top: 45px;
   left: 0;
@@ -195,7 +214,7 @@
   width: 67px;
   height: 9px;
 }
-.icon-alternate-microphone-group {
+.icon-alternate-microphone-container {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -208,7 +227,7 @@
   bottom: 11.43%;
   left: 30.77%;
 }
-.icon-quote-right1 {
+.icon-quote-right2 {
   position: absolute;
   height: 66.04%;
   width: 63.49%;
@@ -220,7 +239,7 @@
   overflow: hidden;
   max-height: 100%;
 }
-.mysl1 {
+.mysl2 {
   position: absolute;
   top: 44px;
   left: 0;
@@ -234,7 +253,7 @@
   width: 63px;
   height: 9px;
 }
-.icon-quote-right-group {
+.icon-quote-right-container {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -247,7 +266,7 @@
   bottom: 11.43%;
   left: 50%;
 }
-.icon-alternate-phone1 {
+.icon-alternate-phone2 {
   position: absolute;
   height: 70.37%;
   width: 60.32%;
@@ -259,7 +278,7 @@
   overflow: hidden;
   max-height: 100%;
 }
-.contact1 {
+.contact2 {
   position: absolute;
   top: 45px;
   left: 0;
@@ -273,7 +292,7 @@
   width: 63px;
   height: 9px;
 }
-.icon-alternate-phone-group {
+.icon-alternate-phone-container {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -286,18 +305,18 @@
   bottom: 11.43%;
   left: 70.77%;
 }
-.home-item,
-.nav1 {
+.home-inner,
+.nav2 {
   position: absolute;
   left: 0;
   width: 390px;
 }
-.nav1 {
+.nav2 {
   margin: 0;
   top: 776px;
   height: 70px;
 }
-.home-item {
+.home-inner {
   top: 0;
   background-color: var(--color-lightslategray);
   height: 107px;
@@ -333,7 +352,7 @@
   width: 184px;
   height: 92px;
 }
-.home1 {
+.home2 {
   position: relative;
   background-color: var(--color-white);
   width: 100%;

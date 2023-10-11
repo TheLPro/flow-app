@@ -19,7 +19,6 @@
   align-items: center;
   width: 369px;
   height: 329px;
-  font-size: var(--font-size-17xl);
 }
 .czec {
   position: absolute;
@@ -30,44 +29,68 @@
   color: var(--color-lightslategray);
 }
 .first-open-child,
-.first-open-item {
+.imie {
+  background-color: transparent;
   position: absolute;
-  box-sizing: border-box;
-  height: 90px;
 }
 .first-open-child {
-  border: 3px solid var(--color-lightslategray);
-  background-color: var(--color-lightslategray);
-  top: 680px;
-  left: 63px;
-  border-radius: 100px;
-  width: 264px;
-}
-.first-open-item {
   top: 576px;
   left: 25px;
   border-radius: var(--br-xl);
-  background-color: transparent;
   border: 1px solid var(--color-black);
+  box-sizing: border-box;
   width: 340px;
+  height: 90px;
 }
-.dalej,
 .imie {
-  position: absolute;
+  border: 0;
+  font-family: var(--font-garet);
+  font-size: var(--font-size-21xl);
   top: 586px;
   left: 36px;
+  color: var(--color-black);
+  text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 319px;
   height: 73px;
 }
+.group-child {
+  border: 3px solid var(--color-lightslategray);
+  background-color: var(--color-lightslategray);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  width: 264px;
+  height: 90px;
+}
 .dalej {
-  top: 690px;
-  left: 96px;
+  position: absolute;
+  top: 10px;
+  left: 33px;
+  font-size: var(--font-size-21xl);
+  font-family: var(--font-garet);
   color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 199px;
   height: 69px;
+}
+.rectangle-parent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 680px;
+  left: 63px;
+  width: 264px;
+  height: 90px;
 }
 .first-open {
   position: relative;
@@ -76,7 +99,7 @@
   height: 844px;
   overflow: hidden;
   text-align: center;
-  font-size: var(--font-size-21xl);
+  font-size: var(--font-size-17xl);
   color: var(--color-black);
   font-family: var(--font-garet);
 }
