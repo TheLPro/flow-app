@@ -56,11 +56,11 @@
   object-fit: cover;
 }
 .nav5,
-.rectangle-parent2 {
+.rectangle-parent1 {
   position: absolute;
   height: 143px;
 }
-.rectangle-parent2 {
+.rectangle-parent1 {
   cursor: pointer;
   border: 0;
   padding: 0;

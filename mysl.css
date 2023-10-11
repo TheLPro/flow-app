@@ -18,30 +18,6 @@
   width: 331px;
   height: 123px;
 }
-.group-child4,
-.mysl-inner {
-  position: absolute;
-  width: 82.83px;
-  height: 82.83px;
-  transform: rotate(-90deg);
-  transform-origin: 0 0;
-}
-.group-child4 {
-  top: 0;
-  left: 0;
-  border-radius: var(--br-11xl);
-  background-color: var(--color-white);
-  border: 3px solid var(--color-lightslategray);
-  box-sizing: border-box;
-}
-.mysl-inner {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  top: 715.83px;
-  left: 287px;
-}
 .mysl-item {
   position: absolute;
   top: 174px;
@@ -64,7 +40,7 @@
   width: 310px;
   height: 85px;
 }
-.line-div {
+.mysl-inner {
   position: absolute;
   top: 260px;
   left: 36.5px;
@@ -90,21 +66,56 @@
   overflow-y: auto;
   font-size: var(--font-size-base);
 }
-.icon-plus {
+.group-child4,
+.rectangle-wrapper1 {
+  left: 0;
+  width: 82.83px;
+  height: 82.83px;
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+}
+.group-child4 {
   position: absolute;
-  height: 6.04%;
-  width: 13.08%;
-  top: 76.78%;
-  right: 9.74%;
-  bottom: 17.18%;
-  left: 77.18%;
+  top: 0;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+  border: 3px solid var(--color-lightslategray);
+  box-sizing: border-box;
+}
+.rectangle-wrapper1 {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 82.83px;
+}
+.group-parent1,
+.icon-plus,
+.rectangle-wrapper1 {
+  cursor: pointer;
+  position: absolute;
+}
+.icon-plus {
+  height: 61.57%;
+  width: 61.57%;
+  top: 18.11%;
+  right: 21.53%;
+  bottom: 20.32%;
+  left: 16.9%;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
-  cursor: pointer;
+}
+.group-parent1 {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 633px;
+  left: 287px;
+  width: 82.83px;
+  height: 82.83px;
 }
 .group-child5,
-.rectangle-frame {
+.rectangle-wrapper2 {
   position: absolute;
   left: 0;
   width: 82.83px;
@@ -119,7 +130,7 @@
   border: 3px solid var(--color-lightslategray);
   box-sizing: border-box;
 }
-.rectangle-frame {
+.rectangle-wrapper2 {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -139,7 +150,7 @@
   width: 201px;
   height: 38px;
 }
-.group-button {
+.group-parent2 {
   cursor: pointer;
   border: 0;
   padding: 0;

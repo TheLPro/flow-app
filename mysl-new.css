@@ -49,71 +49,8 @@
   width: 315px;
   height: 1px;
 }
-.tresc-twojej-mysli {
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: inline-block;
-  width: 322px;
-  height: 335px;
-}
-.tresc-twojej-mysli-wrapper {
-  position: absolute;
-  top: 262px;
-  left: 30px;
-  width: 331px;
-  height: 331px;
-  overflow-y: auto;
-  font-size: var(--font-size-base);
-}
-.group-item,
+.group-child2,
 .rectangle-wrapper {
-  position: absolute;
-  left: 0;
-  width: 82.83px;
-  height: 82.83px;
-  transform: rotate(-90deg);
-  transform-origin: 0 0;
-}
-.group-item {
-  top: 0;
-  border-radius: var(--br-11xl);
-  background-color: var(--color-white);
-  border: 3px solid var(--color-lightslategray);
-  box-sizing: border-box;
-}
-.rectangle-wrapper {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  top: 82.83px;
-}
-.icon-times {
-  position: absolute;
-  height: 54.33%;
-  width: 54.33%;
-  top: 21.73%;
-  right: 23.94%;
-  bottom: 23.94%;
-  left: 21.73%;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-}
-.group-parent {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  position: absolute;
-  top: 634px;
-  left: 254px;
-  width: 82.83px;
-  height: 82.83px;
-}
-.group-inner,
-.rectangle-container {
   position: absolute;
   left: 0;
   width: 82.83px;
@@ -121,14 +58,14 @@
   transform: rotate(-90deg);
   transform-origin: 0 0;
 }
-.group-inner {
+.group-child2 {
   top: 0;
   border-radius: var(--br-11xl);
   background-color: var(--color-lightslategray);
   border: 3px solid var(--color-lightslategray);
   box-sizing: border-box;
 }
-.rectangle-container {
+.rectangle-wrapper {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -159,18 +96,64 @@
   width: 193px;
   height: 82.83px;
 }
-.icon-home,
-.nav-child {
+.group-child3,
+.rectangle-frame {
+  position: absolute;
+  left: 0;
+  width: 82.83px;
+  height: 82.83px;
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+}
+.group-child3 {
+  top: 0;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+  border: 3px solid var(--color-lightslategray);
+  box-sizing: border-box;
+}
+.rectangle-frame {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 82.83px;
+}
+.icon-times {
+  position: absolute;
+  height: 54.33%;
+  width: 54.33%;
+  top: 21.73%;
+  right: 23.94%;
+  bottom: 23.94%;
+  left: 21.73%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.group-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 634px;
+  left: 254px;
+  width: 82.83px;
+  height: 82.83px;
+}
+.icon-home2,
+.nav-inner {
   position: absolute;
   top: 0;
   left: 0;
 }
-.nav-child {
+.nav-inner {
   background-color: var(--color-lightslategray);
   width: 390px;
   height: 70px;
 }
-.icon-home {
+.icon-home2 {
   height: 66.24%;
   width: 100%;
   right: 0;
@@ -179,7 +162,7 @@
   overflow: hidden;
   max-height: 100%;
 }
-.home {
+.home3 {
   position: absolute;
   top: 45px;
   left: 2px;
@@ -193,7 +176,7 @@
   width: 44px;
   height: 9px;
 }
-.icon-home-parent {
+.icon-home-container {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -206,7 +189,7 @@
   bottom: 11.43%;
   left: 13.59%;
 }
-.icon-alternate-microphone {
+.icon-alternate-microphone2 {
   position: absolute;
   height: 70.37%;
   width: 38.99%;
@@ -218,7 +201,7 @@
   overflow: hidden;
   max-height: 100%;
 }
-.podcasty {
+.podcasty3 {
   position: absolute;
   top: 45px;
   left: 0;
@@ -232,7 +215,7 @@
   width: 67px;
   height: 9px;
 }
-.icon-alternate-microphone-parent {
+.icon-alternate-microphone-container {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -245,7 +228,7 @@
   bottom: 11.43%;
   left: 30.77%;
 }
-.icon-quote-right {
+.icon-quote-right2 {
   position: absolute;
   height: 66.04%;
   width: 63.49%;
@@ -257,7 +240,7 @@
   overflow: hidden;
   max-height: 100%;
 }
-.mysl {
+.mysl2 {
   position: absolute;
   top: 44px;
   left: 0;
@@ -271,7 +254,7 @@
   width: 63px;
   height: 9px;
 }
-.icon-quote-right-parent {
+.icon-quote-right-container {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -284,7 +267,7 @@
   bottom: 11.43%;
   left: 50%;
 }
-.icon-alternate-phone {
+.icon-alternate-phone2 {
   position: absolute;
   height: 70.37%;
   width: 60.32%;
@@ -296,7 +279,7 @@
   overflow: hidden;
   max-height: 100%;
 }
-.contact {
+.contact2 {
   position: absolute;
   top: 45px;
   left: 0;
@@ -310,7 +293,7 @@
   width: 63px;
   height: 9px;
 }
-.icon-alternate-phone-parent {
+.icon-alternate-phone-container {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -323,13 +306,30 @@
   bottom: 11.43%;
   left: 70.77%;
 }
-.nav {
+.nav2 {
   margin: 0;
   position: absolute;
   top: 774px;
   left: 0;
   width: 390px;
   height: 70px;
+}
+.tresc-twojej-mysli {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 322px;
+  height: 335px;
+}
+.tresc-twojej-mysli-wrapper {
+  position: absolute;
+  top: 262px;
+  left: 30px;
+  width: 331px;
+  height: 331px;
+  overflow-y: auto;
+  font-size: var(--font-size-base);
 }
 .mysl-new {
   position: relative;
